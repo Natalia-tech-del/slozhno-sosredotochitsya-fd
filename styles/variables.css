@@ -2,3 +2,30 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+/*по умолчанию выбрана темная тема, переменные заданы для темной темы */
+
+:root {
+  --font-family: 'IBM Plex mono';
+  --font-style: normal;
+  --title-font-weight: bold;
+  --text-font-weight: normal;
+  --range: 10px;
+  --gap-list-cards: 20px;
+  --section-margin: 30px;
+  --bg-reserve-color: rgb(10, 3, 53);
+  --bg-image: url(../images/cover-image-dark.png); 
+  --main-title-color: #DB00FF;
+  --main-text-color: #000028;
+  --section-title-color: #FF0070;
+  --card-text-color: #F1B2CE;
+  --header-elements-color: #FF0070;
+  --button-hover: rgba(255, 0, 112, 0.4);
+  --accent-color: #FF0070;
+}
+
+
+
+
+
+

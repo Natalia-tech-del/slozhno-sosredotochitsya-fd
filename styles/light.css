@@ -4,9 +4,48 @@
   переключая тему
 */
 
+/*при нажатии на кнопку с выбором светлой темы подставляется в корневой элемент класс .theme-light */
+
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-reserve-color: rgb(245, 221, 241);
+  --bg-image: url(../images/cover-image-light.png); 
+  --main-title-color: #FFC2E6;
+  --main-text-color: #353430;
+  --section-title-color: #353430;
+  --card-text-color: #353430;
+  --header-elements-color: #353430;
+  --button-hover: rgba(50, 49, 45, 0.4);
+  --accent-color: #FF8DCB;
 }
+
+/* в светлой теме элемент не существует */
+
+.theme-light .label {
+  display: none;
+}
+
+/*При нажатии кнопки для режима авто срабатывают настройки пользователя*/
+
+@media (prefers-color-scheme:light) {
+  :root {
+    --bg-reserve-color: rgb(245, 221, 241);
+    --bg-image: url(../images/cover-image-light.png); 
+    --main-title-color: #FFC2E6;
+    --main-text-color: #353430;
+    --section-title-color: #353430;
+    --card-text-color: #353430;
+    --header-elements-color: #353430;
+    --button-hover: rgba(50, 49, 45, 0.4);
+    --accent-color: #FF8DCB;
+  }
+
+  .label {
+    display: none;
+  }
+}
+
+
