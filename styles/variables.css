@@ -6,7 +6,7 @@
 /*по умолчанию выбрана темная тема, переменные заданы для темной темы */
 
 :root {
-  --font-family: 'IBM Plex mono';
+  --font-family: "IBM Plex mono";
   --font-style: normal;
   --title-font-weight: bold;
   --text-font-weight: normal;
@@ -15,17 +15,18 @@
   --section-margin: 30px;
   --bg-reserve-color: rgb(10, 3, 53);
   --bg-image: url(../images/cover-image-dark.png);
-  --main-title-color: #DB00FF;
+  --main-title-color: #db00ff;
   --main-text-color: #000028;
-  --section-title-color: #FF0070;
-  --card-text-color: #F1B2CE;
-  --header-elements-color: #FF0070;
+  --section-title-color: #ff0070;
+  --card-text-color: #f1b2ce;
+  --header-elements-color: #ff0070;
   --button-hover: rgba(255, 0, 112, 0.4);
-  --accent-color: #FF0070;
+  --accent-color: #ff0070;
 }
 
-
-
-
-
-
+@media (width>=768px) {
+  :root {
+    --range: 20px;
+    --section-margin: 40px;
+  }
+}
