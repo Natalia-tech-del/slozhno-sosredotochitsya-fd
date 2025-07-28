@@ -12,7 +12,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-reserve-color: rgb(245, 221, 241);
-  --bg-image: url(../images/cover-image-light.png); 
+  --bg-image: url(../images/cover-image-light.png);
   --main-title-color: #FFC2E6;
   --main-text-color: #353430;
   --section-title-color: #353430;
@@ -33,7 +33,7 @@
 @media (prefers-color-scheme:light) {
   :root {
     --bg-reserve-color: rgb(245, 221, 241);
-    --bg-image: url(../images/cover-image-light.png); 
+    --bg-image: url(../images/cover-image-light.png);
     --main-title-color: #FFC2E6;
     --main-text-color: #353430;
     --section-title-color: #353430;
